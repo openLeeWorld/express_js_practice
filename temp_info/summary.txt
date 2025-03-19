@@ -1,0 +1,6 @@
+express-generator로 bootstrap코드 실행함. 
+npx express-generator(npm execute)
+npm install (package-json의 의존성 전부 설치)
+set DEBUG=express_js:* & npm run dev (dev모드로 nodemon으로 실행)
+(npm start나 npm run start, npm run prod등으로 변경가능)
+이 앱은 redis-server가 백그라운드에 (wsl2나 리눅스) 실행되고 있어야 함
